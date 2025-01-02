@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  font-optical-sizing: auto;
+  font-variation-settings: "wdth" 100;
+}
+
+/* light */
+@font-face {
+  font-family: "GT Walsheim";
+  src: url("/font/GTWalsheimPro-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT Walsheim";
+  src: url("/font/GTWalsheimPro-LightOblique.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* custom font */
+@font-face {
+  font-family: "GT Walsheim";
+  src: url("/font/GTWalsheimPro-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT Walsheim";
+  src: url("/font/GTWalsheimPro-RegularOblique.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+.hover-underline-ltr {
+  position: relative;
+}
+
+.hover-underline-ltr::after {
+  writing-mode: vertical-rl;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+
+.hover-underline-ltr:hover::after {
+  width: 100%;
+}
