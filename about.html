@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./output.css" />
     <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="preload" as="image" href="./assets/index-bckg.jpg" />
   </head>
   <body class="bg-[#111111] text-white relative h-screen index-bckg-image" style="background-image: url('./assets/index-bckg.jpg')">
     <div class="absolute top-0 left-0 bottom-0 right-0 w-full h-full bg-[#111111] opacity-[85%] -z-10"></div>
@@ -48,6 +49,7 @@
             src="./assets/headshot.jpg"
             alt=""
             class="w-[170px] h-[170px] min-w-[170px] md:w-[320px] md:h-[400px] md:rounded-lg rounded-full max-w-full max-h-full object-cover object-top"
+            loading="eager"
           />
         </section>
       </div>
