@@ -57,3 +57,11 @@ html {
 .hover-underline-ltr:hover::after {
   width: 100%;
 }
+
+.index-bckg-image {
+  background-image: url("/assets/index-bckg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

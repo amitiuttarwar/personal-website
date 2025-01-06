@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="./output.css" />
     <link rel="shortcut icon" href="./favicon.ico" />
   </head>
-  <body class="bg-[#111111] text-white">
-    <main class="flex flex-col items-start h-screen py-10 gap-10 max-w-[1200px] w-full mx-auto">
+  <body class="bg-[#111111] text-white relative h-screen index-bckg-image">
+    <div class="absolute top-0 left-0 bottom-0 right-0 w-full h-full bg-[#111111] opacity-[85%] -z-10"></div>
+    <main class="flex flex-col items-start h-screen py-10 gap-10 max-w-[1200px] overflow-scroll w-full mx-auto relative">
       <div class="w-full flex flex-col">
         <button class="">
           <a href="index.html" class="cursor-pointer font-gt-walsheim flex items-center gap-2 hover-underline-ltr w-fit">
@@ -17,14 +18,14 @@
             <p>Home</p>
           </a>
         </button>
-        <div class="flex items-start gap-2 justify-start w-full py-20 bg-whit overflow-hidden relative">
+        <div class="flex items-start gap-2 justify-start w-full py-20 overflow-hidden relative">
           <h1 class="text-[120px] leading-[100%] font-medium text-nowrap">About Me</h1>
         </div>
       </div>
 
-      <div class="flex items-center gap-32 w-full">
+      <div class="flex items-center gap-20 w-full">
         <div
-          class="bg-[#fafafa] w-fit rounded-xl dark:text-white p-6 px-4 border-b border-gray-200 dark:bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:border lg:bg-gray-200 lg:dark:bg-zinc-800/30 flex flex-col gap-6 text-lg font-normal font-gt-walsheim max-w-[70%]"
+          class="bg-[#fafafa] w- rounded-xl p-6 px-4 border-b border-gray-200 dark:bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:border lg:bg-gray-200 lg:dark:bg-zinc-800/30 flex flex-col gap-6 text-xl text-[#f4f5f7] dark:text-[#f4f5f7] font-normal font-gt-walsheim max-w-[70%] min-w-[60%]"
         >
           <p>Hi, meet Amiti.</p>
           <p>
@@ -35,6 +36,10 @@
           <p>Amiti is currently focused on building Waye, an organization that promotes psycho-social support for open source developers.</p>
           <p class="">Her other interests include off-trail backpacking, dancing, and meditation.</p>
         </div>
+
+        <section class="max-w-[40%]">
+          <img src="./assets/headshot.jpg" alt="" class="w-[400px] h-[400px] rounded-lg max-w-full max-h-full object-cover object-top" />
+        </section>
       </div>
     </main>
   </body>
