@@ -554,10 +554,6 @@ video {
   display: none;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -568,10 +564,6 @@ video {
 
 .bottom-0 {
   bottom: 0px;
-}
-
-.bottom-8 {
-  bottom: 2rem;
 }
 
 .left-0 {
@@ -590,25 +582,13 @@ video {
   top: 0px;
 }
 
-.z-20 {
-  z-index: 20;
-}
-
 .-z-10 {
   z-index: -10;
-}
-
-.z-50 {
-  z-index: 50;
 }
 
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .flex {
@@ -619,6 +599,10 @@ video {
   height: 1.5rem;
 }
 
+.h-\[400px\] {
+  height: 400px;
+}
+
 .h-full {
   height: 100%;
 }
@@ -627,41 +611,20 @@ video {
   height: 100vh;
 }
 
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.h-\[350px\] {
-  height: 350px;
-}
-
-.h-\[400px\] {
-  height: 400px;
-}
-
-.h-\[300px\] {
-  height: 300px;
-}
-
-.max-h-\[320px\] {
-  max-height: 320px;
+.max-h-full {
+  max-height: 100%;
 }
 
 .max-h-screen {
   max-height: 100vh;
 }
 
-.max-h-full {
-  max-height: 100%;
-}
-
 .w-6 {
   width: 1.5rem;
 }
 
-.w-\[250px\] {
-  width: 250px;
+.w-\[400px\] {
+  width: 400px;
 }
 
 .w-fit {
@@ -673,16 +636,8 @@ video {
   width: 100%;
 }
 
-.w-\[350px\] {
-  width: 350px;
-}
-
-.w-\[400px\] {
-  width: 400px;
-}
-
-.w-\[300px\] {
-  width: 300px;
+.w-\[320px\] {
+  width: 320px;
 }
 
 .min-w-\[60\%\] {
@@ -693,8 +648,8 @@ video {
   max-width: 1200px;
 }
 
-.max-w-\[30\%\] {
-  max-width: 30%;
+.max-w-\[40\%\] {
+  max-width: 40%;
 }
 
 .max-w-\[70\%\] {
@@ -709,8 +664,8 @@ video {
   max-width: 100%;
 }
 
-.max-w-\[40\%\] {
-  max-width: 40%;
+.max-w-\[60\%\] {
+  max-width: 60%;
 }
 
 .flex-1 {
@@ -719,10 +674,6 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.flex-row-reverse {
-  flex-direction: row-reverse;
 }
 
 .flex-col {
@@ -765,10 +716,6 @@ video {
   gap: 0.5rem;
 }
 
-.gap-20 {
-  gap: 5rem;
-}
-
 .gap-5 {
   gap: 1.25rem;
 }
@@ -789,24 +736,12 @@ video {
   text-wrap: nowrap;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
-.rounded-full {
-  border-radius: 9999px;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
 }
 
-.border-4 {
-  border-width: 4px;
-}
-
-.border-2 {
-  border-width: 2px;
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .border-b {
@@ -816,11 +751,6 @@ video {
 .border-gray-200 {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
-}
-
-.border-red-700 {
-  --tw-border-opacity: 1;
-  border-color: rgb(185 28 28 / var(--tw-border-opacity, 1));
 }
 
 .border-b-white {
@@ -844,19 +774,9 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.object-center {
-  -o-object-position: center;
-     object-position: center;
 }
 
 .object-top {
@@ -921,10 +841,6 @@ video {
   font-weight: 400;
 }
 
-.font-light {
-  font-weight: 300;
-}
-
 .leading-\[100\%\] {
   line-height: 100%;
 }
@@ -942,42 +858,18 @@ video {
   color: rgb(45 45 45 / var(--tw-text-opacity, 1));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
 .text-\[\#f4f5f7\] {
   --tw-text-opacity: 1;
   color: rgb(244 245 247 / var(--tw-text-opacity, 1));
 }
 
-.opacity-50 {
-  opacity: 0.5;
-}
-
-.opacity-70 {
-  opacity: 0.7;
-}
-
-.opacity-100 {
-  opacity: 1;
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .opacity-85 {
   opacity: 0.85;
-}
-
-.opacity-95 {
-  opacity: 0.95;
-}
-
-.opacity-90 {
-  opacity: 0.9;
-}
-
-.opacity-\[97\%\] {
-  opacity: 97%;
 }
 
 .opacity-\[85\%\] {
@@ -1001,7 +893,7 @@ html {
 @font-face {
   font-family: "GT Walsheim";
 
-  src: url("/font/GTWalsheimPro-Light.woff2") format("woff2");
+  src: url("./font/GTWalsheimPro-Light.woff2") format("woff2");
 
   font-weight: 300;
 
@@ -1011,7 +903,7 @@ html {
 @font-face {
   font-family: "GT Walsheim";
 
-  src: url("/font/GTWalsheimPro-LightOblique.woff2") format("woff2");
+  src: url("./font/GTWalsheimPro-LightOblique.woff2") format("woff2");
 
   font-weight: 300;
 
@@ -1023,7 +915,7 @@ html {
 @font-face {
   font-family: "GT Walsheim";
 
-  src: url("/font/GTWalsheimPro-Regular.woff2") format("woff2");
+  src: url("./font/GTWalsheimPro-Regular.woff2") format("woff2");
 
   font-weight: 400;
 
@@ -1033,7 +925,7 @@ html {
 @font-face {
   font-family: "GT Walsheim";
 
-  src: url("/font/GTWalsheimPro-RegularOblique.woff2") format("woff2");
+  src: url("./font/GTWalsheimPro-RegularOblique.woff2") format("woff2");
 
   font-weight: 400;
 
@@ -1061,7 +953,6 @@ html {
 }
 
 .index-bckg-image {
-  background-image: url("/assets/index-bckg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1099,14 +990,14 @@ html {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
   }
 
-  .dark\:text-white {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-  }
-
   .dark\:text-\[\#f4f5f7\] {
     --tw-text-opacity: 1;
     color: rgb(244 245 247 / var(--tw-text-opacity, 1));
+  }
+
+  .dark\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity, 1));
   }
 }
 
